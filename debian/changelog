@@ -1,0 +1,47 @@
+ros-indigo-nao-control (0.0.6-0saucy) saucy; urgency=high
+
+  * Adding missing dependencies
+  * update maintainers
+  * Contributors: Mikael Arguedas, Natalia Lyubova
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Mon, 30 Jan 2017 23:00:00 -0000
+
+ros-indigo-nao-control (0.0.5-0saucy) saucy; urgency=high
+
+  * configuring to use with MoveIt
+  * Contributors: nlyubova
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Tue, 20 Oct 2015 22:00:00 -0000
+
+ros-indigo-nao-control (0.0.4-0saucy) saucy; urgency=high
+
+  * Added foot and pelvis controller in trajectory control launch file in nao_control. Minor cleaning in nao_control
+  * update repos links
+    added run dependencies (not generating warnings)
+  * Contributors: Konstantinos Chatzilygeroudis, Mikael Arguedas
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 25 Mar 2015 23:00:00 -0000
+
+ros-indigo-nao-control (0.0.3-0saucy) saucy; urgency=high
+
+
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 03 Dec 2014 23:00:00 -0000
+
+ros-indigo-nao-control (0.0.2-0saucy) saucy; urgency=high
+
+  * update controller list
+  * Contributors: margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Sun, 26 Oct 2014 23:00:00 -0000
+
+ros-indigo-nao-control (0.0.1-0saucy) saucy; urgency=high
+
+  * cleanups
+  * putting back nao_dcm namespace in config files
+  * nao_control and nao_gazebo to simulate nao
+  * Contributors: Vincent Rabaud, margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Sat, 27 Sep 2014 22:00:00 -0000
+
+
