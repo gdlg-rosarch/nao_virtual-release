@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <package>
   <name>nao_control</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>The nao_control package</description>
 
   <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
-  <maintainer email="mikael.arguedas@gmail.com">Mikael Arguedas</maintainer>
+  <maintainer email="surya.ambrose@gmail.com">Surya Ambrose</maintainer>
+  <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
 
   <license>Apache 2.0</license>
 
@@ -14,6 +15,9 @@
 
   <run_depend>controller_manager</run_depend>
   <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joint_trajectory_controller</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>effort_controllers</run_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
 </package>
