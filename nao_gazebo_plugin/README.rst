@@ -3,29 +3,16 @@ nao_gazebo_plugin
 
 Package developed against ROS Indigo and default gazebo (gazebo 2.2.3)
 
-Dependencies
+Installation
 ------------
 
-This packages requires several plugin that you have to fetch on github and compile from source.
-
-roboticgroups_gazebo_plugins
+This packages requires several plugins that you have to fetch on github and compile from source.
 
 .. code-block:: bash
-    
-    git clone git@github.com:roboticsgroup/roboticsgroup_gazebo_plugins.git
 
-pal_msgs
-
-.. code-block:: bash
-    
-    git clone git@github.com:pal-robotics/pal_msgs.git
-
-
-pal_gazebo plugins
-
-.. code-block:: bash
-    
-    git clone git@github.com:pal-robotics/pal_gazebo_plugins.git
+    git clone https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
+    git clone https://github.com/pal-robotics/pal_msgs.git
+    git clone https://github.com/pal-robotics/pal_gazebo_plugins.git
     catkin_make
 
 Please also make sure that the package and all the dependencies are up to date
@@ -33,6 +20,11 @@ Please also make sure that the package and all the dependencies are up to date
 .. code-block:: bash
     
     sudo apt-get update
+
+Install the package with apt-get or compile it from source
+
+.. code-block:: bash
+
     sudo apt-get install ros-indigo-nao-gazebo-plugin
 
 
@@ -95,7 +87,7 @@ To control your simulated robot using MoveIt, run:
     roslaunch nao_moveit_config moveit_planner.launch
 
 
-Then you can use moveit as usual : quick tutorial here https://github.com/ros-nao/nao_moveit_config/blob/master/tuto/tuto_moveit.rst/#use-moveit
+Then you can use moveit as usual : quick tutorial here https://github.com/ros-naoqi/nao_moveit_config/blob/master/tuto/tuto_moveit.rst/#use-moveit
 
 Using Choregraphe behaviours:
 
