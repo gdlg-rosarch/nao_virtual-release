@@ -1,0 +1,12 @@
+Source: ros-kinetic-nao-control
+Section: misc
+Priority: extra
+Maintainer: Surya Ambrose <surya.ambrose@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nao-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-effort-controllers, ros-kinetic-joint-state-controller, ros-kinetic-joint-trajectory-controller, ros-kinetic-robot-state-publisher
+Description: The nao_control package
